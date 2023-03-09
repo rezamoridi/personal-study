@@ -7,3 +7,8 @@ h1 {
     background-color: bisque;
     font-style: italic;
 }
+
+p {
+    color: purple;
+    background-color: yellow;
+}
