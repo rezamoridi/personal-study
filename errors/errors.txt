@@ -1,0 +1,1 @@
+scss section , first of page --- cant change background color

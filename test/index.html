@@ -4,35 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.scss">
-    <title>Milky Way</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
 </head>
-    <div>
-        <h1 id="time"></h1>
-        <h1 id="date">Click here</h1>
-        <button id="pcp">Print Page</button>
-        <input name="searchTxt" type="text" maxlength="512" id="searchTxt" class="searchField" aria-label="search"/>
-        <button id="calulate" onclick="triangel()">calculate</button>
-    </div>
 <body>
-    <div>
-        <div class="container-fluid border">
-            <img src="../pics/pixie-s-house-enchanted-forest-fantasy-magic-fireflies_717440-449.avif" alt="" height="250" width="350">
-            <img src="https://static.wikia.nocookie.net/wowpedia/images/a/a5/Blackrock.jpg/revision/latest/scale-to-width-down/1792?cb=20150512054934" alt="" height="250" width="328">
-            <img src="https://static.wikia.nocookie.net/wowpedia/images/c/cb/Stormwind_City_HS.jpg/revision/latest/scale-to-width-down/1200?cb=20210807231808" alt="" height="250" width="328">
-            <img src="https://static.wikia.nocookie.net/wowpedia/images/6/67/Karazhan-banquethall.jpg/revision/latest/scale-to-width-down/832?cb=20071129102031" alt="" height="250" width="328">
-        </div> 
-        <form action="">
-            <input type="text" name="bar" id="first" aria-label="csum">
-            <br><input type="text" name="bar2" id="secend" aria-label="csum">
-            <button type="button" id="sum" onclick="sum()">+</button>
-            <button type="button" id="multip" onclick="multiple()">&#215;</button>
-            <button type="button" id="division" onclick="division()">&#247;</button>
-            <button type="button" id="minus" onclick="minus()">&minus;</button>
-            <output id="this"></output>
-        </form>
-    <script type="text/javascript" src="helloWorld.js"></script>
-    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <div class="clock">
+        <div class="hourHand"></div>
+        <div class="minuteHand"></div>
+        <div class="secondHand"></div>
+        <div class="center"></div>
+        <div class="time"></div>
+        <ul>
+            <li><span>1</span></li>
+            <li><span>2</span></li>
+            <li><span>3</span></li>
+            <li><span>4</span></li>
+            <li><span>5</span></li>
+            <li><span>6</span></li>
+            <li><span>7</span></li>
+            <li><span>8</span></li>
+            <li><span>9</span></li>
+            <li><span>10</span></li>
+            <li><span>11</span></li>
+            <li><span>12</span></li>
+        </ul>
     </div>
+
+    <audio src="https://sampleswap.org/samples-ghost/DRUMS%20and%20SINGLE%20HITS/snares/5[kb]sidestick.aif.mp3" class="audio"   ></audio>
+
+
+
+
+<div class="youtubeBtn">
+  <a target="_blank" href="https://www.youtube.com/AhmadEmran?sub_confirmation=1">
+      <span>Watch on YouTube</span>
+  <i class="fab fa-youtube"></i>
+    </a>
+
+</div>
 </body>
 </html>

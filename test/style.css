@@ -1,15 +1,5 @@
-// Custom.scss
-
-/* footer  */
-  
-/* footer  */
-// Option A: Include all of Bootstrap
-
-li{
-
-}
 body{
-  background-color: rgba(230, 131, 18, 0.623);
+  background-color: rgb(37, 223, 53);
   padding: 0;
   margin: 0;
 }
@@ -260,11 +250,3 @@ transition:all .3s ease-in-out;
   color:#ff0000;
 }
 }
-
-
-// Include any default variable overrides here (though functions won't be available)
-
-@import "../node_modules/bootstrap/scss/bootstrap";
-
-// Then add additional custom code here
-
